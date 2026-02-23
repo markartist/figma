@@ -1,0 +1,147 @@
+{
+  "archetypes": [
+    {
+      "id": "enterprise",
+      "name": "Enterprise Portal",
+      "description": "Multi-property portfolio site",
+      "order": 1,
+      "pages": [
+        {
+          "page_id": "enterprise-home",
+          "name": "Enterprise Home",
+          "path": "/layouts/pages/enterprise-home.json",
+          "status": "planned",
+          "order": 1
+        },
+        {
+          "page_id": "property-listing",
+          "name": "Property Listing",
+          "path": "/layouts/pages/property-listing.json",
+          "status": "planned",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "property_marketing_v1",
+      "name": "Property Marketing Site",
+      "description": "Individual property website archetype",
+      "order": 2,
+      "pages": [
+        {
+          "page_id": "homepage",
+          "name": "Homepage",
+          "path": "/layouts/pages/homepage.json",
+          "status": "active",
+          "screenshot": "figma:asset/3162c497989806348cdf6b41cf5f8651182108ce.png",
+          "order": 1
+        },
+        {
+          "page_id": "apartments",
+          "name": "Apartments & Pricing",
+          "path": "/layouts/pages/apartments-pricing.json",
+          "status": "active",
+          "screenshot": "figma:asset/e21a19574a6ae0e46548c0bdd854e1e275c9af04.png",
+          "order": 2
+        },
+        {
+          "page_id": "features",
+          "name": "Features",
+          "path": "/layouts/pages/features.json",
+          "status": "active",
+          "screenshot": "figma:asset/cbca34d34d37be7f0799c2cdc43ae6c9cab04176.png",
+          "order": 3
+        },
+        {
+          "page_id": "amenities",
+          "name": "Amenities",
+          "path": "/layouts/pages/amenities.json",
+          "status": "active",
+          "screenshot": "figma:asset/3e051bd62d862f33c30a1c4abfc09f57a94f9f1f.png",
+          "order": 4
+        },
+        {
+          "page_id": "gallery",
+          "name": "Gallery",
+          "path": "/layouts/pages/gallery.json",
+          "status": "active",
+          "screenshot": "figma:asset/38ba2d93925edf90de5fe320566432ad33254869.png",
+          "order": 5
+        },
+        {
+          "page_id": "neighborhood",
+          "name": "Location",
+          "path": "/layouts/pages/neighborhood.json",
+          "status": "active",
+          "screenshot": "figma:asset/bb3ccb30acc4be8602f2ae84bdf0e8dd537045d2.png",
+          "order": 6
+        },
+        {
+          "page_id": "contact",
+          "name": "Contact",
+          "path": "/layouts/pages/contact.json",
+          "status": "active",
+          "screenshot": "figma:asset/bd0f4741a76feed0ae27474374ca7d9cb27e1c92.png",
+          "order": 7
+        },
+        {
+          "page_id": "specials",
+          "name": "Specials",
+          "path": "/layouts/pages/specials.json",
+          "status": "active",
+          "screenshot": "figma:asset/21b0f1599b16e15ba48abbb3b3a2e5f079ddf4fc.png",
+          "order": 8
+        },
+        {
+          "page_id": "reviews",
+          "name": "Reviews",
+          "path": "/layouts/pages/reviews.json",
+          "status": "active",
+          "screenshot": "figma:asset/e2a638f2ecdcac1059c875838f8749cbf3a65ae4.png",
+          "order": 9
+        },
+        {
+          "page_id": "faqs",
+          "name": "FAQs",
+          "path": "/layouts/pages/faq.json",
+          "status": "active",
+          "screenshot": "figma:asset/fcd54870f9fb1d26db3ea9cfc3001f38b5e708d7.png",
+          "order": 10
+        },
+        {
+          "page_id": "about-venterra",
+          "name": "About Venterra",
+          "path": "/layouts/pages/about-venterra.json",
+          "status": "active",
+          "screenshot": "figma:asset/346d5a569e5f1128339c91b893caa1cafe60875a.png",
+          "order": 11
+        }
+      ]
+    }
+  ],
+  "components": {
+    "global": [
+      {
+        "component_id": "nav-primary",
+        "name": "Primary Navigation",
+        "path": "/layouts/components/nav-primary.json",
+        "type": "nav",
+        "status": "active"
+      },
+      {
+        "component_id": "footer-primary",
+        "name": "Primary Footer",
+        "path": "/layouts/components/footer-primary.json",
+        "type": "footer",
+        "status": "active"
+      }
+    ]
+  },
+  "metadata": {
+    "registry_version": "1.0",
+    "last_updated": "2026-02-17T11:00:00Z",
+    "total_archetypes": 2,
+    "total_pages": 11,
+    "total_components": 2
+  }
+}
